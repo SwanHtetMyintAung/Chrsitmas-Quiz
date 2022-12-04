@@ -78,12 +78,12 @@ let Isanswer = false;
 
 function render(){
     Isanswer = false;
-    if(number > 8 ){
+    if(number > data.length+1 ){
         answer_input.classList.add('d-none');
         button.classList.add('d-none');
         next_button.classList.add('d-none');
         responseLabel.classList.add('d-none');
-        question.textContent = "That's All the question i have for now.  you know \r\n i have to THINK THE NEURONS OUT OF MY BRAIN :D "
+        question.textContent = "That's All the question i have for now. \r\n  you know i have to THINK THE NEURONS OUT OF MY BRAIN :D "
     }
     data.map(quiz=>{
         if(quiz.number == number){

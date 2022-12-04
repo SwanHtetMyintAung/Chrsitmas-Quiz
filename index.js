@@ -59,6 +59,12 @@ let data = [
         falseResponse:"Of course Not . There is No Santa Clause After all",
     },{
         number:7,
+        question:"Do you have a partner to spend the Christmas and New Year Together ?",
+        answer:"Yes",
+        trueResponse:"I know you are lying bro!",
+        falseResponse:"Now become ကြေကွဲလူငယ်, become one of us",
+    },{
+        number:8,
         question:"What do you want for the christmas ?",
         answer:"Anything",
         trueResponse:"dude! think Some specific thing ffs",
@@ -72,7 +78,7 @@ let Isanswer = false;
 
 function render(){
     Isanswer = false;
-    if(number > 7 ){
+    if(number > data.length ){
         answer_input.classList.add('d-none');
         button.classList.add('d-none');
         next_button.classList.add('d-none');

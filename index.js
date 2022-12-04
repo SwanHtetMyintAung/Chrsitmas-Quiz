@@ -63,12 +63,6 @@ let data = [
         answer:"Yes",
         trueResponse:"I know you are lying bro!",
         falseResponse:"Now become ကြေကွဲလူငယ်, become one of us",
-    },{
-        number:8,
-        question:"What do you want for the christmas ?",
-        answer:"Anything",
-        trueResponse:"dude! think Some specific thing ffs",
-        falseResponse:"Frankly , i could't care less mate. I am only adding this question because i don't have anything else to ask",
     },
 ]
 
